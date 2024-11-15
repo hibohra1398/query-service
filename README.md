@@ -3,8 +3,6 @@
 > **⚠️ This project is no longer actively maintained.**  
 > You are welcome to use or fork the code, but please note that no further updates, bug fixes, or support will be provided
 
-## No Longer Maintained
-
 As of **November 15, 2024**, this project is no longer under active development or maintenance
 
 ### What does this mean?
