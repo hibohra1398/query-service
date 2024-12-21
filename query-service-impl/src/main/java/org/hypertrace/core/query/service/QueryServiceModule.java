@@ -3,7 +3,7 @@ package org.hypertrace.core.query.service;
 import com.google.inject.AbstractModule;
 import com.google.inject.multibindings.Multibinder;
 import com.typesafe.config.Config;
-import javax.inject.Singleton;
+import jakarta.inject.Singleton;
 import org.hypertrace.core.attribute.service.cachingclient.CachingAttributeClient;
 import org.hypertrace.core.grpcutils.client.GrpcChannelRegistry;
 import org.hypertrace.core.query.service.api.QueryServiceGrpc.QueryServiceImplBase;

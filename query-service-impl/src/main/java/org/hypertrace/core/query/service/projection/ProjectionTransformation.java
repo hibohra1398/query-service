@@ -12,9 +12,9 @@ import static org.hypertrace.core.query.service.QueryRequestUtil.createStringLit
 import io.reactivex.rxjava3.core.Maybe;
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.core.Single;
+import jakarta.inject.Inject;
 import java.util.List;
 import java.util.Optional;
-import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
 import org.hypertrace.core.attribute.service.cachingclient.CachingAttributeClient;
 import org.hypertrace.core.attribute.service.projection.AttributeProjection;

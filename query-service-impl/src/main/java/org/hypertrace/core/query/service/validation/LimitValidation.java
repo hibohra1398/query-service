@@ -2,7 +2,7 @@ package org.hypertrace.core.query.service.validation;
 
 import io.grpc.Status;
 import io.reactivex.rxjava3.core.Completable;
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
 import org.hypertrace.core.grpcutils.context.RequestContext;
 import org.hypertrace.core.query.service.QueryServiceConfig;

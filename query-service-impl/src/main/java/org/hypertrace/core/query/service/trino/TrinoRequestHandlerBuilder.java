@@ -1,7 +1,7 @@
 package org.hypertrace.core.query.service.trino;
 
+import jakarta.inject.Inject;
 import java.sql.SQLException;
-import javax.inject.Inject;
 import org.hypertrace.core.query.service.QueryServiceConfig.RequestHandlerClientConfig;
 import org.hypertrace.core.query.service.QueryServiceConfig.RequestHandlerConfig;
 import org.hypertrace.core.query.service.RequestHandler;

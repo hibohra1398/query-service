@@ -1,10 +1,10 @@
 package org.hypertrace.core.query.service;
 
+import jakarta.inject.Inject;
 import java.util.Map;
 import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import javax.inject.Inject;
 import org.hypertrace.core.query.service.QueryServiceConfig.RequestHandlerClientConfig;
 
 public class RequestHandlerClientConfigRegistry {

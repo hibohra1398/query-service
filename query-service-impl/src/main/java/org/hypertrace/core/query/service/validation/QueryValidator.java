@@ -2,8 +2,8 @@ package org.hypertrace.core.query.service.validation;
 
 import io.reactivex.rxjava3.core.Completable;
 import io.reactivex.rxjava3.core.Observable;
+import jakarta.inject.Inject;
 import java.util.Set;
-import javax.inject.Inject;
 import org.hypertrace.core.grpcutils.context.RequestContext;
 import org.hypertrace.core.query.service.api.QueryRequest;
 

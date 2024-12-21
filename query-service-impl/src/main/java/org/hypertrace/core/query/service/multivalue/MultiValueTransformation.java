@@ -2,8 +2,8 @@ package org.hypertrace.core.query.service.multivalue;
 
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.core.Single;
+import jakarta.inject.Inject;
 import java.util.List;
-import javax.inject.Inject;
 import lombok.extern.slf4j.Slf4j;
 import org.hypertrace.core.query.service.AbstractQueryTransformation;
 import org.hypertrace.core.query.service.api.Expression;

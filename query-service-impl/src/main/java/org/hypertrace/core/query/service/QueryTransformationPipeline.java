@@ -2,8 +2,8 @@ package org.hypertrace.core.query.service;
 
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.core.Single;
+import jakarta.inject.Inject;
 import java.util.Set;
-import javax.inject.Inject;
 import org.hypertrace.core.query.service.QueryTransformation.QueryTransformationContext;
 import org.hypertrace.core.query.service.api.QueryRequest;
 

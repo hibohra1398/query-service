@@ -1,6 +1,6 @@
 package org.hypertrace.core.query.service.prometheus;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 import org.hypertrace.core.query.service.QueryServiceConfig.RequestHandlerClientConfig;
 import org.hypertrace.core.query.service.QueryServiceConfig.RequestHandlerConfig;
 import org.hypertrace.core.query.service.RequestHandler;

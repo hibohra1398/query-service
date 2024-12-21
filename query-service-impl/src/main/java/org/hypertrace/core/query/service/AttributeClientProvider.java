@@ -2,11 +2,11 @@ package org.hypertrace.core.query.service;
 
 import static org.hypertrace.core.grpcutils.client.RequestContextClientCallCredsProviderFactory.getClientCallCredsProvider;
 
+import com.google.inject.Provider;
 import io.grpc.Channel;
+import jakarta.inject.Inject;
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
-import javax.inject.Inject;
-import javax.inject.Provider;
 import org.hypertrace.core.attribute.service.cachingclient.CachingAttributeClient;
 import org.hypertrace.core.grpcutils.client.GrpcChannelRegistry;
 

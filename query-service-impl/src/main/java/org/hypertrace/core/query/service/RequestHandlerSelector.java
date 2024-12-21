@@ -1,7 +1,7 @@
 package org.hypertrace.core.query.service;
 
+import jakarta.inject.Inject;
 import java.util.Optional;
-import javax.inject.Inject;
 import org.hypertrace.core.query.service.api.QueryRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
